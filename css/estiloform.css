@@ -1,0 +1,62 @@
+/* estilo.css */
+
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del texto  */
+    background-color: #b5cfb4; /* Establece el color de fondo del cuerpo  */
+    display: flex; /* Utiliza un contenedor flexible para alinear los elementos del cuerpo */
+    flex-direction: column; /* Establece la dirección principal de los elementos secundarios del contenedor flexible como columna */
+    justify-content: center; /* Centra verticalmente los elementos del contenedor flexible */
+    align-items: center; /* Centra horizontalmente los elementos del contenedor flexible */
+    height: 100vh; /* Establece la altura del cuerpo del documento al 100% del alto de la ventana del navegador */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo del documento */
+}
+
+h2 {
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px a los elementos <h2> */
+}
+
+.form-container {
+    background-color:  #b5cfb4; /* Establece el color de fondo del contenedor del formulario */
+
+    padding: 40px; /* Agrega un relleno interno de 40px al contenedor del formulario */
+    border-radius: 10px; /* Redondea las esquinas del contenedor del formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al contenedor del formulario */
+    max-width: 500px; /* Establece el ancho máximo del contenedor del formulario en 500px */
+    width: 100%; /* Establece el ancho del contenedor del formulario al 100% del ancho disponible */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px a los elementos con la clase .form-group */
+}
+
+label {
+    display: block; /* Hace que las etiquetas sean bloques, lo que significa que aparecen en una línea separada */
+    font-weight: bold; /* Establece el peso de la fuente de las etiquetas como negrita */
+    margin-bottom: 5px; /* Agrega un margen inferior de 5px a las etiquetas */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%; /* Establece el ancho de los campos de entrada de texto y número y los elementos select como el 100% del ancho disponible */
+    padding: 10px; /* Agrega un relleno interno de 10px a los campos de entrada de texto y número y los elementos select */
+    border: 1px solid #ccc; /* Establece un borde de 1px sólido con color gris claro (#ccc) alrededor de los campos de entrada de texto y número y los elementos select */
+    border-radius: 5px; /* Redondea las esquinas de los campos de entrada de texto y número y los elementos select */
+    box-sizing: border-box; /* Hace que el ancho de los elementos incluya el relleno y el borde, pero no el margen */
+    font-size: 16px; /* Establece el tamaño de fuente de los campos de entrada de texto y número y los elementos select */
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Establece el color de fondo del botón de envío */
+    color: white; /* Establece el color del texto del botón de envío como blanco */
+    padding: 10px 20px; /* Agrega un relleno interno de 10px en la parte superior e inferior y 20px en los lados del botón de envío */
+    border: none; /* Elimina el borde del botón de envío */
+    border-radius: 5px; /* Redondea las esquinas del botón de envío */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa sobre el botón de envío */
+    font-size: 16px; /* Establece el tamaño de fuente del botón de envío */
+    margin-top: 10px; /* Agrega un margen superior de 10px al botón de envío */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón de envío cuando se pasa el cursor sobre él */
+}

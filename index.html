@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Joan XXIII</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header class="bg-dark text-light py-4">
+        <div class="container">
+            <h1 class="text-center">Colegio Joan XXIII</h1>
+        </div>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admisiones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">Administración</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container py-4 noticias">
+        <h2 class="text-center mb-4">Noticias Recientes</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="columna">
+                    <h3>¡Bienvenidos al nuevo año escolar!</h3>
+                    <p>Estamos emocionados de dar la bienvenida a todos nuestros estudiantes al nuevo año escolar. Esperamos un año lleno de aprendizaje, crecimiento y experiencias emocionantes.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="columna">
+                    <h3>Próximo evento: Concurso De Cocina</h3>
+                    <p>Nos complace anunciar que el proximo dia 23 de junio tendremos en exclusiva la primera edicion del concurso de cocina.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-4 eventos">
+        <h2 class="text-center mb-4">Eventos Próximos</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="columna">
+                    <h3>Feria de Ciencias</h3>
+                    <p>Fecha: 20 de mayo</p>
+                    <p>Nuestra Feria de Ciencias es un evento anual en el que los estudiantes exhiben proyectos científicos innovadores. ¡No se lo pierdan!</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="columna">
+                    <h3>Excursión al museo</h3>
+                    <p>Fecha: 25 de mayo</p>
+                    <p> Los estudiantes tendrán la oportunidad de explorar el museo local y aprender sobre arte, historia y ciencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrusel de Bootstrap -->
+    <section id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/pc.jpg" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/gra.jpg" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/clase.jpg" alt="Imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </section>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Colegio Joan XXIII - Construyendo Futuros.</p>
+        </div>
+    </footer>
+
+    <!-- Librerias para meter css y scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
